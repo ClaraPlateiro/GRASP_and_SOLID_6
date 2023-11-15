@@ -85,7 +85,7 @@ namespace Full_GRASP_And_SOLID
             CountdownTimer countdownTimer = new CountdownTimer();
             countdownTimer.Register(finalTime, recipeAdapter);
         }
-
+        //Patrón Adapter
         public class RecipeAdapter : TimerClient
         {
             private Recipe recipe;
